@@ -16,6 +16,12 @@
 	}
 }
 
+#fade-08 {
+	width: 320px;
+	height: 80px;
+	position: absolute;
+	top: 445px;
+}
 
 .landing-fade {
  	position:absolute;
@@ -24,5 +30,24 @@
   margin-left:auto;
   margin-right:auto;
   margin-top: 50px;
+}
 
+.social-icon {
+	position:absolute;
+	width: 56px;
+	height: 56px;
+  top: 570px;
+  cursor: pointer;
+}
+
+#social-01 {
+	left: 420px;
+}
+
+#social-02 {
+	left: 570px;
+}
+
+#social-03 {
+	left: 720px;
 }
