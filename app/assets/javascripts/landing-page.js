@@ -9,9 +9,9 @@ var ready = function() {
         $('#fade-06').delay(2000).fadeOut(1500);
         $('#fade-05').delay(3000).fadeOut(1500);
         $('#fade-04').delay(4000).fadeOut(1500);
-        $('#fade-03').delay(4500).fadeOut(1500);
-        $('#fade-02').delay(5000).fadeOut(1500);
-        $('#fade-08').delay(6000).fadeIn(1000);
+        $('#fade-03').delay(5000).fadeOut(1500);
+        $('#fade-02').delay(6000).fadeOut(1500);
+        $('#fade-08').delay(7000).fadeIn(1000);
 
 
 };
