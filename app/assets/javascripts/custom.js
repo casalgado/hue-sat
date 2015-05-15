@@ -450,3 +450,14 @@
 	});
 
 })(jQuery);
+
+
+var ready = function() {
+
+  alert('hi')
+
+};
+
+
+$(document).ready(ready);
+$(document).on('page:load', ready);

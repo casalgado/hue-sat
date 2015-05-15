@@ -19,4 +19,8 @@ class PagesController < ApplicationController
 
   def destroy
   end
+
+  def blog
+  end
+
 end
