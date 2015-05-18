@@ -389,18 +389,6 @@
 		 * Popup images
 		/* ---------------------------------------------- */
 
-		$('a.popup').magnificPopup({
-			type: 'image',
-			gallery: {
-				enabled: true,
-				navigateByImgClick: true,
-				preload: [0,1]
-			},
-			image: {
-				titleSrc: 'title',
-				tError: 'The image could not be loaded.',
-			}
-		});
 
 		/* ---------------------------------------------- /*
 		 * Rotate
@@ -455,6 +443,20 @@
 var ready = function() {
 
   alert('hi')
+
+$('.popup').magnificPopup({
+	type: 'image',
+	gallery: {
+		enabled: true,
+		navigateByImgClick: true,
+		preload: [0,1]
+	},
+	image: {
+		titleSrc: 'title',
+		tError: 'The image could not be loaded.',
+	}
+});
+
 
 };
 

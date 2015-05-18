@@ -11,6 +11,15 @@ class PagesController < ApplicationController
   def update
   end
 
+  def home
+  end
+
+  def portfolio
+  end
+
+  def about
+  end
+
   def show
   end
 
