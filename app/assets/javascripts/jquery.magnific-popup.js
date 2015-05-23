@@ -2,7 +2,7 @@
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2013 Dmitry Semenov; */
 ;(function($) {
-
+alert("this is ")
 /*>>core*/
 /**
  * 
@@ -2043,6 +2043,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
 		$(this).off('touchstart' + ns + ' click' + ns);
 		if(supportsTouch) _window.off('touchmove'+ns+' touchend'+ns);
 	};
+	alert("SPARTAA")
 })();
 
 /*>>fastclick*/

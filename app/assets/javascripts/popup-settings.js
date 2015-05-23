@@ -5,15 +5,14 @@ $('.popup').magnificPopup({
 	gallery: {
 		enabled: true,
 		navigateByImgClick: true,
-		preload: [0,1]
+	
 	},
 	image: {
 		titleSrc: 'title',
 		tError: 'The image could not be loaded.',
 	}
 });
-
-
+alert("hi")
 };
 
 
