@@ -74,6 +74,7 @@ GEM
     json (1.8.2)
     loofah (2.0.1)
       nokogiri (>= 1.5.9)
+    magnific-popup-rails (0.9.9.1)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
@@ -165,6 +166,7 @@ DEPENDENCIES
   devise (= 3.4.1)
   jbuilder (~> 2.0)
   jquery-rails
+  magnific-popup-rails
   pg (= 0.18.1)
   rails (= 4.2.1)
   rails_12factor (= 0.0.3)

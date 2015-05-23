@@ -18,7 +18,7 @@
 })(jQuery);*/
 
 
-var ready = function() {
+var custom = function() {
 
   //alert('hi')
   /* ---------------------------------------------- /*
@@ -406,5 +406,5 @@ var ready = function() {
 };
 
 
-$(document).ready(ready);
-$(document).on('page:change', ready);
+$(document).ready(custom);
+$(document).on('page:load', custom);
