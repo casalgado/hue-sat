@@ -20,7 +20,6 @@
 
 var custom = function() {
 
-  //alert('hi')
   /* ---------------------------------------------- /*
 		 * Initialization General Scripts for all pages
 		/* ---------------------------------------------- */

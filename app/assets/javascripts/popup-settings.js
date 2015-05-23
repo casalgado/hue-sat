@@ -12,7 +12,6 @@ $('.popup').magnificPopup({
 		tError: 'The image could not be loaded.',
 	}
 });
-alert("hi")
 };
 
 
